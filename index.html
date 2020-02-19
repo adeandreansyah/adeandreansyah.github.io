@@ -21,8 +21,9 @@
     color: #FFFFFF;
 }
 a{
-    font-family: hev;
+    font-family: sans-serif;
     color: white;
+
 }
 a :hover{
     color: white;
@@ -31,9 +32,13 @@ a :hover{
     font-family:'Source Sans Pro', sans-serif;
     font-style: normal;
     font-size: 14px;
-    font-weight: 
+    font-weight: 14px;
     line-height: 14px;
+    color: white;
     
+}
+.menu :hover:hover{
+    color: white;
 }
 .home {
     position: ;
@@ -160,8 +165,8 @@ footer{
     
     font-style: normal;
     font-weight: bold;
-    font-size: 17px;
-    line-height: 17px;
+    font-size: 35px;
+    line-height: 35px;
     color: #F2F2F2;
 
 }
@@ -187,35 +192,39 @@ footer{
 <body >
     <header>
         <div class="home" style="padding-bottom: 5%;">
-            <nav class="container" style="padding-top: 1%;">
+            <nav class="container" style="padding-top: 0.5%;">
                 <div class="row" style="color: #FFFFFF;">
                     <div class="col-md-6">
-                        <a href="index.html"><p class="nama_header" style="font-size: 16px; ">Ade Andreansyah</p></a>
+                        <a href="index.html"><p class="nama_header" style="font-size: 30px; font-weight: 35px; ">Ade Andreansyah</p></a>
                     </div>
                     <div class="col-md-2">
-                        <a href="#fake" class="menu">Fake Project</a>
+                        <a href="#fake" class="menu" style="font-size: 25px; font-weight: 25px; color: white; ">Fake Project</a>
                     </div>
                     <div class="col-md-2">
-                        <a href="#real" class="menu">Real Project</a>
+                        <a href="#real" class="menu" style="font-size: 25px; font-weight: 25px; color: white;">Real Project</a>
                     </div>
                     <div class="col-md-2">
-                        <a href="#ui" class="menu">UI Exploration</a>
+                        <a href="#ui" class="menu" style="font-size: 25px; font-weight: 25px; color: white;">UI Exploration</a>
                     </div>
         
                 </div>
             </nav>
             <div class="container" style="padding-top:8%; padding-bottom: 0%">
                         <div class="project" >
-                            <input type="image" style="width: 30px; height: 30px; margin-bottom: 6px;" src="asset/page1/kotak.png">
+                            <input type="image" style="width: 30px; height: 30px; margin-bottom: 2px;" src="asset/page1/kotak.png">
                             <h1 class="nama_header" style="text-align: left; margin-left: 2%; margin-bottom: 2%;"> Ade Andreansyah</h1>
                         </div>
                 <div class="row">
                     <div class="col-md-11" >
-                        <div class="project" style="padding: 0%; margin-left: 5%;">
+                        <!-- <div class="project" style="padding: 0%; margin-left: 5%;">
                                 <h1 id="UI" style="text-align: left; margin-right: 2%;"> UI/UX</h1>
                                 <h1 id="Designer" style=" "> Designer</h1>
-                        </div>
-                        <div class="" style="margin-left: 5%;">
+                        </div> -->
+                        <span class="row" style="padding: 0%; margin-left: 5%;">
+                            <h1 id="UI" style="text-align: left; margin-right: 2%; font-weight: 900; "> UI/UX</h1>
+                            <h1 id="Designer" style=" font-weight: 900;"> Designer</h1>
+                        </span>
+                        <div class="" style="margin-left: 5%; margin-top: 3%;">
                             <h1 id="make">Make a smile with a pleasant user experience</h1>
                         </div>
                         <div class="" style="margin-left: 5%; margin-top: 2%;">
@@ -235,25 +244,25 @@ footer{
                         </div>
 
                     </div>
-                    <div class="col-md-1" style="text-align: left;">
+                    <div class="col-md-1" style="text-align: left; margin-bottom: 10%;">
                         <div>
                             <a href="https://dribbble.com/adeandreansyah">
-                                <input type="image" style="width: 25px; height: 25px; margin-top: 10%; text-align: right;" src="asset/page1/dribble-logo-button.png">   
+                                <input type="image" style="width: 35px; height: 35px; margin-top: 10%; text-align: right;" src="asset/page1/dribble-logo-button.png">   
                             </a>
                         </div>
                         <div>
                             <a href="https://www.behance.net/adeandrean16fb">
-                                <input type="image" style="width: 25px; height: 25px; margin-top: 10%; text-align: right;" src="asset/page1/behance-logo-button.png">
+                                <input type="image" style="width: 35px; height: 35px; margin-top: 10%; text-align: right;" src="asset/page1/behance-logo-button.png">
                             </a>
                         </div>
                         <div>
                             <a href="https://www.linkedin.com/in/ade-andreansyah-b0a99778/">
-                                <input type="image" style="width: 25px; height: 25px; margin-top: 10%; text-align: right;" src="asset/page1/linkedin-logo-button.png">
+                                <input type="image" style="width: 35px; height: 35px; margin-top: 10%; text-align: right;" src="asset/page1/linkedin-logo-button.png">
                             </a>
                         </div>
                         <div>
                             <a href="https://www.instagram.com/ade.andreansyah/">
-                                <input type="image" style="width: 25px; height: 25px; margin-top: 10%; text-align: right;" src="asset/page1/instagram.png">
+                                <input type="image" style="width: 35px; height: 35px; margin-top: 10%; text-align: right;" src="asset/page1/instagram.png">
                             </a>
                         </div>
                     </div>
@@ -333,22 +342,22 @@ footer{
         </div>
     </div>
     <!-- Footer -->
-    <footer>
+    <footer style="margin-top: 10%;">
         <div>
-            <center> <h2 style="padding-top:2%; padding-bottom: 2%;" class="judulfooter">YOU CAN FIND ME ON</h2> </center>
+            <center> <h2 style="padding-top:10%; padding-bottom: 2%;" class="judulfooter">YOU CAN FIND ME ON</h2> </center>
         </div>
         <div>
-            <span style="margin-top: 0px;">
+            <span style="margin-top: 0px; margin-left: 10%;">
                 <center>
-                    <a href="https://dribbble.com/adeandreansyah"><img style="width: 2%; height: 2%; " src="asset/page1/dribble-logo-button.png"></a>
-                    <a href="https://www.behance.net/adeandrean16fb"><img style="width: 2%; height: 2%; " src="asset/page1/behance-logo-button.png"></a>
-                    <a href="https://www.linkedin.com/in/ade-andreansyah-b0a99778/"><img style="width: 2%; height: 2%;" src="asset/page1/linkedin-logo-button.png"></a>
-                    <a href="https://www.instagram.com/ade.andreansyah/"><img style="width: 2%; height: 2%;" src="asset/page1/instagram.png"></a>
+                    <a href="https://dribbble.com/adeandreansyah"><img style="width: 118px; height: 118px; " src="asset/page1/dribble-logo-button.png"></a>
+                    <a href="https://www.behance.net/adeandrean16fb"><img style="width: 118px; height: 118px; margin-left: 3%; " src="asset/page1/behance-logo-button.png"></a>
+                    <a href="https://www.linkedin.com/in/ade-andreansyah-b0a99778/"><img style="width: 118px; height: 118px; margin-left: 3%;" src="asset/page1/linkedin-logo-button.png"></a>
+                    <a href="https://www.instagram.com/ade.andreansyah/"><img style="width: 118px; height: 118px; margin-left: 3%;" src="asset/page1/instagram.png"></a>
                 </center>
             </span>
         </div>
         <div>
-            <center> <h2 style="padding-top:2%; padding-bottom: %;" class="judulfooter">TO SEE MY OTHER WORKS</h2> </center>
+            <center> <h2 style="padding-top:2%; padding-bottom: 10%;" class="judulfooter">TO SEE MY OTHER WORKS</h2> </center>
         </div>
         <div class="footer1">
             <center>
