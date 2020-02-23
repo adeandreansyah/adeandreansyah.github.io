@@ -195,6 +195,48 @@ footer{
 .project{
     display: flex;
 }
+#gambar1{
+    width: 100%;
+    height: 100%;
+    /* padding: 5%; */
+}
+#gambar1:hover{
+    opacity: 0.2;
+    
+}
+.backgroundblack{
+    /* background-color: #171717; */
+    background: url('asset/page1/dasar.png');
+    border-radius: 20px;
+    /* left: 100%; */
+    cursor: pointer;
+    background-size: cover;
+    
+
+}
+.backgroundblack:hover{
+    left: 0%;
+}
+.backgroundblack2{
+    /* background-color: #171717; */
+    background: url('asset/page1/dasar-instagram.png');
+    border-radius: 20px;
+    /* left: 100%; */
+    cursor: pointer;
+    background-size: cover;
+    
+
+}
+.backgroundblack3{
+    /* background-color: #171717; */
+    background: url('asset/page1/dasar-uniqlo.png');
+    border-radius: 20px;
+    /* left: 100%; */
+    cursor: pointer;
+    background-size: cover;
+    
+
+}
 
 </style>
 </head>
@@ -289,19 +331,28 @@ footer{
                 </div>
                         
                 <div>
-                    <h class="desspro">The following is a fake project that I made with the aim to improve my UX skills. Click the image below to see the design process</h>
+                    <h class="desspro">The following is a fake project that I made with the aim to improve my UX skills. Click the image below to see the design process</h><br>
                 </div>
                 <div   class="row" style="text-align: center;">
-                    <div id="konten" class="col-md-4">
-                        <a  href="workio.html"><figure><img style="width: 100%; height: 100% ; border-radius: 20px; padding: 5%;" src="asset/page1/workio.png"></figure></a>
+                    <div id="konten" class="col-md-4 ">
+                        <div class="backgroundblack">
+                            <a  href="workio.html"><figure><img id="gambar1" src="asset/page1/workio.png"></figure></a>
+                        </div>
+                        
+                    </div>
+                    <div id="konten" class="col-md-4 " >
+                        <div class=" backgroundblack2">
+                            <a href="instagram.html"><figure><img id="gambar1" src="asset/page1/instagram ui.png"></figure></a>
+                        </div>
+                        <!-- <a href="instagram.html"><figure><img style="width: 100%; height: 100% ; border-radius: 20px; padding: 5%;" src="asset/page1/instagram ui.png"></figure></a> -->
+                        <!-- <a id="backgroundblack" style="width: 100%; height: 100% ; border-radius: 20px; padding: 5%; color: #171717; background-color: #171717;" ></a> -->
                     </div>
                     <div id="konten" class="col-md-4">
-                        <a href="instagram.html"><figure><img style="width: 100%; height: 100% ; border-radius: 20px; padding: 5%;" src="asset/page1/instagram ui.png"></figure></a>
-                    </div>
-                    <div id="konten" class="col-md-4">
-                        <figure><img style="width: 100%; height: 100% ; border-radius: 20px; padding: 5%;" src="asset/page1/Uniqlo.png"></figure>
+                        <div class="backgroundblack3">
+                            <a href="https://www.behance.net/gallery/84737739/Re-Design-Uniqlo-Mobile-App-UX-Study-Case"><figure><img id="gambar1" src="asset/page1/Uniqlo.png"></figure></a>
+                        </div>
                     </div> 
-                </div>
+                </div> <br>
                 <div class="">
                     <div class="project">
                         <input type="image" style="width: 30px; height: 30px; margin-bottom: 6px; text-align: right;" src="asset/page1/kotak2.png">
