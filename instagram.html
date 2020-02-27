@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link href="asset/page1/kotak2.png" rel="shortcut icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<style>
+.home {
+    position: ;
+    width: 100%;
+    height: 150%;
+    background:url('background.png');
+    //border-radius: 0px 0px 50px 0px;
+
+    
+}
+.judul{
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: bold;
+
+
+color: #FFFFFF;
+text-align: left;
+
+}
+.tittle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 23px;
+    margin-top:0% ;
+    margin-bottom: 0%;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.content{
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+padding-top: 7%;
+/* identical to box height */
+color: #000000;
+
+}
+.content2{
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+padding-top: 1%;
+/* identical to box height */
+color: #000000;
+
+}
+.topjudul{
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 28px;
+
+}
+.score1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #FF8552;
+
+}
+.score2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #96E136;
+
+}
+#kotak{
+    margin-left: 9%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 238px;
+    height: 54px;
+    background: #4A7FE7;
+    border-radius: 5px;
+}
+.tombol{
+    text-align: center;
+    padding-top: 7%;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+footer{
+    bottom: 0px;
+    width: 100%;
+    height: 50%;
+    background:#171717;
+    border-radius: 50px 0px 0px 0px;
+}
+.judulfooter{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 35px;
+    color: #F2F2F2;
+
+}
+#telepon1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #F2F2F2;
+
+}
+
+#telepon{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: #F2F2F2;
+    margin-top: 1%;
+
+}
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+a :hover{
+    color: white;
+}
+.project{
+    display: flex;
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="home" style="">
+            <nav class="container" style="padding-top: 0.5%;">
+                <div class="row" style="color: #FFFFFF;">
+                    <div class="col-md-6">
+                        <a href="index.html"><p class="nama_header" style="font-size: 30px; font-weight: 35px; ">Ade Andreansyah</p></a>
+                    </div>
+                    <div class="col-md-2">
+                        <!-- <a href="#fake" class="menu" style="font-size: 25px; font-weight: 25px; color: white; ">Fake Project</a> -->
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#real" class="menu" style="font-size: 25px; font-weight: 25px; color: white;">Project</a>
+                    </div>
+                    <div class="col-md-2" style="">
+                        <a href="#ui" class="menu" style="font-size: 25px; font-weight: 25px; color: white; ">UI Exploration</a>
+                    </div>
+        
+                </div>
+            </nav>
+            <div class="container">
+                <h2 class="judul" style="margin-top: 15%; font-size: 72px; line-height: 36px;">Re-Design — Instagram</h2>
+                <h3 class="judul" style="margin-top: 4%; font-size: 30px; font-weight: 35px; margin-left: 0%; padding-bottom: 6%;">Fake Project - UX Case Study</h3>
+            </div>
+            <img class="ghome" style="width: 100%; height: 100%;" src="asset/page3/home.png">
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" style="margin-left: 7%; margin-top: 2%;">
+                <p class="tittle">Timeline :</p>
+                <p class="content">July 2019 - August 2019</p>
+                <p></p>
+                <p class="tittle">Team Partner :</p>
+                <p class="content">-</p>
+                <p class="content"></p>
+                <p class="tittle">Roles :</p>
+                <p class="content">Interface Designer, UX Researcher</p>
+                <p></p>
+                <p class="tittle">Tools :</p>
+                <p class="content">Figma, Marvel</p>
+            </div>
+            <div class="col-md-8"  style="margin-top: 2%;">
+                <h class="topjudul">My Goals for the Re-Design :</h>
+                <table border="0"> 
+                    <tr style="height: 50px;">
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td><h  class="content">Increase user comfort in using Instagram especially when exploring the timeline.</h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td><h  class="content">Design Instagram to more understand user needs with Empathy.</h></td>
+                    </tr>
+                </table>
+                <div style="margin-left: 10%;">
+                    <img src="asset/page3/designprocess.png" style="width: 80%; height: 80%; padding: 5%;">
+                </div>
+                <h style="margin-top: 20%;  color: #6890B4; font-size: 45px;" class="topjudul ">Observe</h>
+                <p class="tittle" style="margin-top: 4%;">Problem Assumptions</p>
+                <p class="content2" style="font-weight: bold; margin-top: 1%;">1. The Instagram timeline is sorted by popularity.</p>
+                <div>
+                    <img src="asset/page3/observe.png" style=" width: 80%; height: 80%; padding: 5%;" >
+                </div>
+                <p style="margin-top: 1%;" class="content">I realized this problem because when I
+                     scrolled through the Instagram timeline, I found a photo that has been uploaded 2 
+                     days ago. It caused me to not be able to saw photos that are uploaded by my close 
+                     friends because it buried by other photos that more popular.
+                </p>
+                <p class="content2" style="font-weight: bold;">2. It’s so hard to tap usernames that are mentioned in Instagram Story.</p>
+                <div style="text-align: center;">
+                    <img src="asset/page3/1.gif" style=" width: 55%; height: 55%; ">
+                </div>
+                <p style="margin-top: %;" class="content">When I wanted to open the profile, I a
+                    ccidentally moved to the next story or previous story. It always happened to me 
+                    continuously when I still want to open the profile of the person who is mentioned, 
+                    until it makes me annoyed.
+                </p>
+                <p class="tittle" style="padding-top: 3%;">Persona</p>
+                <p style="margin-top: 1%;" class="content2">For this case I want to focus to design for user types:</p>
+                <table border="0"> 
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td><h  class="content">Influencer & Content Creator: Users who have a lot of followers and make Instagram as a business platform</h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td><h  class="content">Regular Users who use Instagram for entertainment purposes and share a moment with their friends.</h></td>
+                    </tr>
+                </table>
+                <!-- <div>
+                    <span style="margin-right: 20%;">
+                        <img src="asset/page3/bulat.png" style="margin-right: 2%;" >
+                        <h  class="content">Influencer & Content Creator: Users who have a lot of followers and make Instagram as a business platform</h>
+                    </span><div></div>
+                    <span style="margin-right: 20%; margin-bottom: 50px;">
+                        <img src="asset/page3/bulat.png" style="margin-right: 2%;" >
+                        <h  class="content">Regular Users who use Instagram for entertainment purposes and share a moment with their friends.</h>
+                    </span><div></div>
+                </div> -->
+                    <div>
+                        <img src="asset/page3/persona.png" style=" width: 80%; height: 80%; padding: 5%;" >
+                    </div>
+                <p class="tittle" style="margin-top: 1%; margin-bottom: 7%;">User Scenario</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="asset/page3/userscenario.png" style=" width: 100%; height: 100%; " >
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-9" >
+                <p class="tittle" style="margin-top: 1%; margin-bottom: 0%; margin-left: 6%;">User Interviews and Usability Testing</p>
+                <div>
+                    <img src="asset/page3/userinterview.png" style=" width: 80%; height: 80%; padding: 5%; margin-left: 0%;" >
+                </div>
+                <p style="margin-top: 1%; margin-left: 6%;  " class="content2">I asked my friends to tried to tap the 
+                    username that is mentioned on someone’s Instagram Story and I asked them to checked 
+                    the content of their timeline. The result is
+                </p>
+                <p style="margin-top: 1%; margin-left: 6%;  " class="content2"><strong>Users can’t
+                     always tap the username. </strong> The thing that happened was they are moved to
+                      the next or previous story. One participant also got a problem because she uses a
+                       5inc smartphone.
+                </p>
+                <p style="margin-top: 1%; margin-left: 6%;  margin-bottom: 10%;" class="content2"><strong>Contents of their 
+                    timeline mostly aren’t from their friends, </strong> but from an artist, influencer
+                     or online shop that they have followed. Even post has been uploaded 2 days ago is 
+                     still in their timeline.
+                </p>
+                <h style=" color: #6890B4;  margin-left: 6%; font-size: 45px; " class="topjudul ">Define</h>
+                <p style="margin-top: 1%; margin-left: 6%;  " class="content2">After did some Observes, 
+                    surprisingly, I got a new interesting problem that has to be solved
+                </p>
+                <table border="0" style="margin-left:6%;"> 
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td><h  class="content"><strong>Pain Points #1: It’s so hard to tap usernames that are mentioned in Instagram Story.</strong></h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td><h  class="content"><strong>Pain Points #2: The Instagram timeline is sorted by popularity.</strong></h></td>
+                    </tr>
+                       
+                </table>
+                <h  class="content" style="margin-left: 9%;"><i>This is a new problem that I got when I did an interview.</i></h>
+                <table border="0" style="margin-left:6%;"> 
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td> <h  class="content"><strong>Pain Points #3: Forget to upload photo or video</strong></h></td>
+                    </tr>
+                </table>
+                <div style="height: 5%;"></div>
+                <h style=" color: #6890B4;  margin-left: 6%; font-size: 45px; " class="topjudul ">Ideate</h>
+                <p style="margin-top: 1%; margin-left: 6%;  " class="content2">Before I made Hi-Fi User 
+                    Interface, I decided to sketch the design on paper first to minimize material and 
+                    feature are forgotten. This method makes me faster and more effective to find a
+                     solution, and also speeds up when making Hi-Fi versions.
+                </p>
+                <div>
+                    <img src="asset/page3/ideate.png" style=" width: 80%; height: 80%; padding: 5%; margin-left: 0%;" >
+                </div>
+                <h style=" color: #6890B4;  margin-left: 6%; font-size: 45px; " class="topjudul ">Prototype</h>
+                <p class="content2" style="font-weight: bold; margin-left: 6%; margin-top: 2%;">High Fidelity</p>
+                <table border="0" style="margin-left:6%;"> 
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content" style="margin-bottom: 15%;"><strong>Flow #1: An easier way to tap the username/hashtag that is mentioned on Instagram Story.</strong></h></td>
+                    </tr>
+                </table>
+                <div style="margin-bottom: 20px;">
+                    <img src="asset/page3/Flow 1 1.png" style=" width: 100%; height: 100%;" >
+                </div>
+                <table border="0" style="margin-left:6%;"> 
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content" style="margin-bottom: 15%;"><strong>Flow #2: How to set the content of Instagram timeline based on upload time, popularity and your close friends.</strong></h></td>
+                    </tr>
+                </table>
+                <div style="margin-bottom: 20px;">
+                    <img src="asset/page3/Flow 1 2.png" style=" width: 100%; height: 100%;" >
+                </div>
+                <table border="0" style="margin-left:6%;"> 
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content" style="margin-bottom: 15%;"><strong>Flow #3: How to set your post upload schedule on Instagram.</strong></h></td>
+                    </tr>
+                </table>
+                <div class="    ">
+                    <img src="asset/page3/Flow 4 1.png" style="width: 190%; height: 190%; margin-left: -60%; margin-right: -40%;"> 
+                </div><div style="height: 30px;"></div>
+                <h style=" color: #6890B4;  margin-left: %; font-size: 45px; " class="topjudul ">Prototype and Validation</h>
+                <div style="height: 150px;"></div>
+
+            </div>
+        </div>
+        <!-- <img src="asset/page3/Flow 4 1.png" style="width: 80%; height: 80%;"> 
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-8">
+                <img src="asset/page3/Flow 4 1.png" style="width: 80%; height: 80%;"> 
+            </div>
+        </div>
+         -->
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6" style="">
+                <div>
+                    <img src="asset/page3/Sequence 03_1.gif" style="height: 100%; width: 100%;">
+                </div>
+        
+            </div>
+            <div class="col-md-6"> 
+                <div style="margin-top:23%;"></div>
+                <h  class="content2" style="margin-bottom: 15%;"><strong>#1. Solution: Mention/Hashtag Page in Instagram Story.</strong></h></td>
+                <table border="0" style="margin-right:13%;"> 
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;"><strong>Pain Points: It’s so hard to tap usernames that are mentioned in Instagram Story.</h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;">Mention/Hashtag is used to make it easier for users to see a profile or hashtag that is mentioned in the Instagram story. User doesn’t need repeatedly fail when they try to tap that username even though the font size is too small.</h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;">To open the mention/hashtag page, a user just taps the “@” logo that is located at the bottom of the Instagram story, especially in beside the button camera..</h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;">You can also open the mention/hashtag page by double tap quickly on someone’s Instagram story.</h></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" style="">
+                <img src="asset/page3/Sequence 03_3.gif" style="height: 100%; width: 100%;">
+            </div>
+            <div class="col-md-6"> 
+                <div style="margin-top:23%;"></div>
+                <h  class="content2" style="margin-bottom: 15%;"><strong>#2. Solution: Set your Timeline Contents based on upload time, popularity and close friend.</strong></h></td>
+                <table border="0" style="margin-right:13%;"> 
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;"><strong>Pain Points: Forget to upload photo or video</strong></h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;">With this feature, users don’t need to worry about forget to upload something. This feature will be very important for influencers who get many endorsement or company that actively creates content on Instagram.</h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;">When users want to uploads something, the user simply taps on the “Upload Later” button and then set the date when your photo/video will be uploaded automatically by Instagram.</h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;">You can see your photo/video that will be uploaded on the “Upload Pending” Page, On this page, you can also edit (cancel upload and edit caption) and re-set your upload schedule.</h></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 5%;">
+            <div class="col-md-3" style="">
+                <img src="asset/page3/4.gif" style="height: 80%; width: 60%; width: 80%; margin-left: 10%">
+            </div>
+            <div class="col-md-3" style=";">
+                <img src="asset/page3/5.gif" style="height: 80%; width: 80%; margin-left: 10%">
+            </div>
+            <div class="col-md-6"> 
+                <div style="margin-top:23%;"></div>
+                <h  class="content2" style="margin-bottom: 15%;"><strong>#3. Solution: Set Post Upload Schedule.</strong></h></td>
+                <table border="0" style="margin-right:13%;"> 
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;"><strong>Pain Points: Forget to upload photo or video</strong></h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;">With this feature, users don’t need to worry about forget to upload something. This feature will be very important for influencers who get many endorsement or company that actively creates content on Instagram.</h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;">When users want to uploads something, the user simply taps on the “Upload Later” button and then set the date when your photo/video will be uploaded automatically by Instagram.</h></td>
+                    </tr>
+                    <tr>
+                        <td><img src="asset/page3/bulat.png" style="margin-right: 10px; " ></td>
+                        <td>  <h  class="content2" style="margin-bottom: 15%;">You can see your photo/video that will be uploaded on the “Upload Pending” Page, On this page, you can also edit (cancel upload and edit caption) and re-set your upload schedule.</h></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20%;">
+            <div class="col-md-4" style="text-align: right;">
+            </div>
+            <div class="col-md-6" style=";"> 
+                <h style=" color: #6890B4;  margin-left: %; font-size: 45px; " class="topjudul ">Validation</h><br><div style="padding-bottom: 2%;"></div>
+                <h  class="content2" style="padding-bottom: 25%;"><strong>To prove my design successfully solve their problems, I tried usability testing to 5 persons. I asked them to use the new features that I had made. And the result is</strong></h></td><br><div style="padding-bottom: 2%;"></div>
+                <h  class="content2" style="margin-bottom: 25%;"><strong>#1. Mention/Hashtag Page di Instagram Story.</strong></h></td><br>
+                <h  class="content2" style="margin-bottom: 25%;">All users can use this feature very well. They were happy because with the “Mention/Hashtag” Page make them easier when they want to open someone’s profile that is mentioned.</h></td><br><div style="padding-bottom: 2%;"></div>
+                <h  class="content2" style="margin-bottom: 25%;"><strong>#2. Set your Timeline Contents based on upload time, popularity and close friend.</strong></h></td><br><div style="padding-bottom: 2%;"></div>
+                <h  class="content2" style="margin-bottom: 25%;">Like the previous feature, when I asked user to change their timeline contents based on whatever they want, everything went very smoothly without any problems. But I got advice from one of my participants, she said</h></td><br><div style="padding-bottom: 2%;"></div><div style="padding-bottom: 2%;"></div>
+                <h  class="content2" style="margin-bottom: 25%;">With feature like this, most Instagram users will tend to like their timeline contents are set on “Close Friend”. it can have a negative effect on influencers who have a job to promote several brands because they can possibly get bad insight from their post. This can happen because photo/video that is posted by influencer will be rarely seen by their followers.</h></td><br><div style="padding-bottom: 2%;"></div>
+                <h  class="content2" style="margin-bottom: 25%;">Some users are very pleased with this new feature especially for influencers who actually have many photos from several brands to post. When they used this feature some participants have no difficulty at all, but I got advice from some other participants, they said</h></td><br><div style="padding-bottom: 2%;"></div>
+                <h  class="content2" style="margin-bottom: 25%;">They had a little trouble when searching a photo on the “Upload Pending” page because it is hidden in Hamburger on the profile page. According to them, “Upload Pending” better is placed on the profile page just like “Tagging Photo Page” button</h></td><br><div style="padding-bottom: 2%;"></div>
+            </div>
+        </div>
+    </div>
+    
+        
+        
+        
+    <!-- Footer -->
+    <footer style="margin-top: 10%;">
+        <!-- <div>
+            <center> <h2 style="padding-top:10%; padding-bottom: 2%;" class="judulfooter">YOU CAN FIND ME ON</h2> </center>
+        </div>
+        <div>
+            <span style="margin-top: 0px; margin-left: 10%;">
+                <center>
+                    <a href="https://dribbble.com/adeandreansyah"><img style="width: 118px; height: 118px; margin-bottom: 2%;" src="asset/page1/dribble-logo-button.png"></a>
+                    <a href="https://www.behance.net/adeandrean16fb"><img style="width: 118px; height: 118px; margin-left: 3%; margin-bottom: 2%; " src="asset/page1/behance-logo-button.png"></a>
+                    <a href="https://www.linkedin.com/in/ade-andreansyah-b0a99778/"><img style="width: 118px; height: 118px; margin-left: 3%; margin-bottom: 2%;" src="asset/page1/linkedin-logo-button.png"></a>
+                    <a href="https://www.instagram.com/ade.andreansyah/"><img style="width: 118px; height: 118px; margin-left: 3%; margin-bottom: 2%;" src="asset/page1/instagram.png"></a>
+                </center>
+            </span>
+        </div>
+        <div>
+            <center> <h2 style="padding-top:2%; padding-bottom: 10%;" class="judulfooter">TO SEE MY OTHER WORKS</h2> </center>
+        </div> -->
+        <div class="footer1">
+            <center>
+                <div class="container-fluid" style="padding-top: 1%;">  
+                    <span class="row" >
+                        <span class="col-md-3">
+                            <input type="image" style="width: 24px; height: 24px; margin-right: 2%;" src="asset/page1/whatsapp.png">
+                            <a id="telepon1" style="margin-right: 7%;  " href="https://api.whatsapp.com/send?phone=6285885513287&text=&source=&data=">+62 858 8551 3287</a>
+                        </span>
+                        <span class="col-md-3 project" style="text-align: center;">
+                            <input type="image" style="width: 24px; height: 24px; margin-right: 2%; " src="asset/page1/email.png">
+                            <a id="telepon1" style="margin-right: 10%;" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=adeandreansyah99@gmail.com&tf=1" >adeandreansyah99@gmail.com</a>
+                        </span>
+                        <span class="col-md-3">
+                            <hr color="white" width="100%">
+                        </span>
+                        <span class="col-md-3">
+                            <a href="https://dribbble.com/adeandreansyah">
+                                <input type="image" style="width: 35px; height: 35px; margin-top: 00%; text-align: right;" src="asset/page1/dribble-logo-button.png">   
+                            </a>
+                            <a href="https://www.behance.net/adeandrean16fb">
+                                <input type="image" style="width: 35px; height: 35px; margin-top: 0%; text-align: right;" src="asset/page1/behance-logo-button.png">
+                            </a>
+                            <a href="https://www.linkedin.com/in/ade-andreansyah-b0a99778/">
+                                <input type="image" style="width: 35px; height: 35px; margin-top: 0%; text-align: right;" src="asset/page1/linkedin-logo-button.png">
+                            </a>
+                            <a href="https://www.instagram.com/ade.andreansyah/">
+                                <input type="image" style="width: 35px; height: 35px; margin-top: 0%; text-align: right;" src="asset/page1/instagram.png">
+                            </a>
+                        </span>
+                    </span>
+                </div>
+            </center>
+        </div>
+    </footer>
+        
+</body>
+</html>
